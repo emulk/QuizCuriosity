@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/technology.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/technology.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/choicelogo.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/choicelogo.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/capital.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/capital.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/play.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/play.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/fragment_main.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/fragment_main.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/statistiche.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/statistiche.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/science.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/science.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/usstates.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/usstates.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/activity_main.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/logo.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/logo.xml"
+    },
+    {
+        "merged": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/layout/about.xml",
+        "source": "/home/asd/StudioProjects/app/src/main/res/layout/about.xml"
+    }
+]

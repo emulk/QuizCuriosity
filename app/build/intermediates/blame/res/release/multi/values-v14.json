@@ -1,0 +1,28 @@
+[
+    {
+        "outputFile": "/home/asd/StudioProjects/app/build/intermediates/res/merged/release/values-v14/values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 206
+                },
+                "from": {
+                    "file": "/home/asd/StudioProjects/app/src/main/res/values-v14/styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 3,
+                        "startOffset": 219,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 370
+                    }
+                }
+            }
+        ]
+    }
+]

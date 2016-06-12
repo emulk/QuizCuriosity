@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <!-- TODO -->
+
+    <Button
+        android:id="@+id/indietro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/emulk"
+        android:text="Back" />
+
+    <TextView
+        android:id="@+id/scorePerdite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_marginTop="72dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:shadowColor="#00ccff"
+        android:text="Losses"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="left"
+        android:text="Victories"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/perdite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/scorePerdite"
+        android:layout_alignBottom="@+id/scorePerdite"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/vittorie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/scorePerdite"
+        android:layout_below="@+id/perdite"
+        android:layout_marginTop="17dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:shadowColor="#00ccff"
+        android:text="Time"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/secondi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Time"
+        android:layout_alignBottom="@+id/Time"
+        android:layout_alignParentRight="true"
+        android:text="s"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Time"
+        android:layout_alignBottom="@+id/Time"
+        android:layout_toLeftOf="@+id/minuti"
+        android:text=" : "
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Time"
+        android:layout_alignBottom="@+id/Time"
+        android:layout_toLeftOf="@+id/secondi"
+        android:text=" : "
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/minuti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Time"
+        android:layout_alignBottom="@+id/Time"
+        android:layout_toLeftOf="@+id/TextView01"
+        android:text=" m"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Time"
+        android:layout_alignBottom="@+id/Time"
+        android:layout_toLeftOf="@+id/TextView02"
+        android:text="o"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+<!-- 
+    <TextView
+        android:id="@+id/TextViewobiettivi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Time"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:shadowColor="#00ccff"
+        android:text="Objectives unlocked:"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/TextViewObiettivi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextViewobiettivi"
+        android:layout_alignBottom="@+id/TextViewobiettivi"
+        android:layout_alignLeft="@+id/ore"
+        android:text="questo"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+         -->
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/indietro"
+        android:layout_alignLeft="@+id/indietro"
+        android:layout_marginBottom="73dp"
+        android:background="@drawable/emulk"
+        android:text="Reset"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Time"
+        android:layout_below="@+id/Time"
+        android:layout_marginTop="17dp"
+        android:text="Questions correct: "
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/QuestionsCorrect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Correct"
+        android:layout_alignBottom="@+id/Correct"
+        android:layout_alignLeft="@+id/ore"
+        android:text="0" 
+        android:textSize="22sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/Rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/reset"
+        android:layout_alignBottom="@+id/reset"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/emulk"
+        android:text="Rate this app"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
